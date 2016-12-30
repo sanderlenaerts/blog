@@ -4,7 +4,7 @@
     {% for post in paginator.posts %}
       <div class="blog-post spacing-vertical">
         <div class="spacing-horizontal">
-          <h3><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a></h3>
+          <h3><a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a></h3>
           <p class="summary">
             {{ post.category }}
             <span class="date">
@@ -21,7 +21,7 @@
           {% if excerpt_words != content_words %}
           <div class="read-more">
             <i class="fa fa-arrow-circle-right"></i>
-            <a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button">Read more</a>
+            <a class="btn btn-sm btn-primary" href="{{ site.github.url }}{{ post.url }}" role="button">Read more</a>
           </div>
           {% endif %}
         </div>
