@@ -33,13 +33,13 @@
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <span><a href="{{ paginator.previous_page_path }}" class="page-btn previous">Previous</a></span>
+      <span><a href="{{ site.github.url }}/{{ paginator.previous_page_path }}" class="page-btn previous">Previous</a></span>
     {% else %}
       <span class="page-btn-dis previous">Previous</span>
     {% endif %}
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-    <span><a href="{{ paginator.next_page_path }}" class="page-btn next">Next</a></span>
+    <span><a href="{{ site.github.url }}/{{ paginator.next_page_path }}" class="page-btn next">Next</a></span>
     {% else %}
       <span class="page-btn-dis next ">Next</span>
     {% endif %}
