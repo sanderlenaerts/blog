@@ -1,0 +1,48 @@
+<section class="has-header">
+  <div class="blog-posts">
+    <h2 class="spacing-horizontal spacing-vertical blog-header">Blog</h2>
+    {% for post in paginator.posts %}
+      <div class="blog-post spacing-vertical">
+        <div class="spacing-horizontal">
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p class="summary">
+            {{ post.category }}
+            <span class="date">
+              {{ post.date | date: '%B %d, %Y' }}
+            </span>
+          </p>
+          {{ post.excerpt }}
+          {% capture content_words %}
+            {{ post.content | number_of_words }}
+          {% endcapture %}
+          {% capture excerpt_words %}
+            {{ post.excerpt | number_of_words }}
+          {% endcapture %}
+          {% if excerpt_words != content_words %}
+          <div class="read-more">
+            <i class="fa fa-arrow-circle-right"></i>
+            <a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button">Read more</a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+  {% endfor %}
+  </div>
+
+  <!-- Pagination links -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <span><a href="{{ paginator.previous_page_path }}" class="page-btn previous">Previous</a></span>
+    {% else %}
+      <span class="page-btn-dis previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <span><a href="{{ paginator.next_page_path }}" class="page-btn next">Next</a></span>
+    {% else %}
+      <span class="page-btn-dis next ">Next</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</section>

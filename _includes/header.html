@@ -1,0 +1,23 @@
+
+<header>
+  <div class="logo">
+    <img src="/assets/img/logo.svg"/>
+    <div class="logo-text">
+      <span class="light-text">Sander in</span>
+      <span>New Zealand</span>
+    </div>
+
+  </div>
+
+  <nav>
+    <ul>
+      <li {% if page.url == "/" %}class="active"{% endif %}>
+        <a href="/" >About</a>
+      </li>
+      <li {% if page.url contains "/blogposts/" %}class="active"{% endif %}>
+        <a href="/blogposts/">Blog</a>
+      </li>
+
+    </ul>
+  </nav>
+</header>

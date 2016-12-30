@@ -1,0 +1,7 @@
+name: Sander in New Zealand
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+paginate: 3
+paginate_path: "blogposts/page:num/"
+permalink: /blogposts/:title.html

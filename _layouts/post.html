@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include header.html %}
+<section id="single-post" class="blog-post spacing has-header">
+  <div class="spacing-vertical spacing-horizontal">
+    <h2>{{ page.title }}</h2>
+    <p class="meta">{{ page.date | date_to_string }}</p>
+
+    <div class="post">
+    {{ content }}
+    </div>
+  </div>
+
+</section

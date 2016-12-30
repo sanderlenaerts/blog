@@ -1,0 +1,54 @@
+header
+  width: 100%
+  max-width: 900px
+  height: 80px
+  background: white
+  display: flex
+  align-items: center
+  justify-content: space-between
+  padding: 50px 20px
+  box-sizing: border-box
+  position: fixed
+  top: 0
+  z-index: 99999
+
+  .logo
+    display: flex
+    align-items: center
+    img
+      vertical-align: middle
+      width: 64px
+    .logo-text
+      display: inline-block
+      line-height: auto
+      margin-left: 10px
+      span
+        font-size: 1rem
+        line-height: 1
+        margin: 0
+        padding: 0
+        display: block
+        font-weight: 300
+
+      .light-text
+        color: lighten($text-color, 20%)
+
+
+  nav
+    float: right
+    display: inline-block
+    ul
+      margin-right: 50px
+      display: inline-block
+      li
+        font-weight:bolder
+        margin: 0 30px
+        display: inline-block
+        list-style: none
+
+      .active
+        a
+         color: $primary-color
+
+        &:hover a
+          color: lighten($primary-color, 10%)
