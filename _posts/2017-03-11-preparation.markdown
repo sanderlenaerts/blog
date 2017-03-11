@@ -4,7 +4,7 @@ title:  "It is getting real"
 date:   2017-03-11 16:39
 ---
 
-At first I was a little bit skeptic about moving to another country (this was before I had my Erasmus experience). Would I be able to stay alive without my parents for this long? Doing laundry and cooking something else than spaghetti or chicken curry with rice seemed pretty challenging All these skills that were still so new to me and I had yet to acquire. I am not joking, when I say I was (and I still am) a bad cook. At least the diversity in the meals I cook and eat have gone up during my Erasmus, so there is that.
+At first I was a little bit skeptic about moving to another country (this was before I had my Erasmus experience). Would I be able to stay alive without my parents for this long? Doing laundry and cooking something else than spaghetti or chicken curry with rice seemed pretty challenging. All these skills that were still so new to me and I had yet to acquire. I am not joking, when I say I was (and I still am) a bad cook. At least the diversity in the meals I cook and eat have gone up during my Erasmus, so there is that.
 
 Once you have experienced the independence and responsibility that comes with living abroad for half a year or longer, there seems to be no way back. And even though I really love my parents and appreciate what they constantly do for me, I have noticed over the last couple of weeks that I really value to be more independent. It is you that decides if you want to have chocolate chip cookies for dinner or want to nap at 6pm.
 
