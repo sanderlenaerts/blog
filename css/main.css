@@ -3206,15 +3206,6 @@ header {
     .blog-posts .blog-post .read-more, .blog-posts .blog-post .read-more a {
       color: #2676D8; }
 
-.img-container {
-  text-align: center; }
-
-.img-responsive {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 500px; }
-
 #single-post {
   max-width: 900px;
   width: 100%;
@@ -3225,6 +3216,10 @@ header {
   #single-post h2 {
     font-weight: lighter;
     margin: 0; }
+  #single-post img {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; }
 
 .spacing-vertical {
   margin-top: 20px;
