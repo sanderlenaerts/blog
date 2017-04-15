@@ -8,26 +8,26 @@ Under the saying ‘better late than never’ I finally decided to write my seco
 
 I am currently working in Queenstown and it’s quite the majestic place. Located in between the mountains there are tons of hikes nearby. It has plenty of space to lay down and take a breather, take in the sun, lick your life away on one of those tasty New Zealand ice-creams or devour a famous Fergburger hamburger. Of course this also means it’s full of tourists, here for just a couple of days or weeks, before they move onto the next big thing in New Zealand. With only about ten thousand people actually living in and around Queenstown it has been quite hard to find people to hang out with. Queenstown can be a pretty lonely place... When I tell other people from here I was placed in Queenstown they always tell me how lucky I am to be placed here. I smile, say yes and just tell them how much I like the scenery, while in fact I don’t actually feel that lucky at all.
 
-![Queenstown]({{ site.url }}/assets/img/camera/queenstown.jpg)
+![Queenstown]({{ site.github.url }}/assets/img/camera/queenstown.jpg)
 
 I would have been ok with being alone in Queenstown (of all the interns that is), although I would have preferred not to be, if my internship was going great. Sadly enought it’s not what I was expecting and the work I’m doing in this company isn’t really contributing to where I want to go after my studies. On a positive note, there is some stuff in the works to fix this, so life is looking up and I am looking forward to see what this will bring into my internship experience. 
 
 Before you start to think it’s been the worst experience of my life. Hold on! It has definitely not been bad at all, I am sure of that. The first couple of weeks I have spent my weekends trying to discover Queenstown and walking a couple of these amazing hikes. Hiking the Ben Lomond Track on a day with not a cloud in the sky has been my highlight so far. The 6 hour hike ends up at Ben Lomond Summit at a whopping 1.748m, granting you a stunning view of Queenstown and its surrounding mountain ranges.
 
-![Mountain]({{ site.url }}/assets/img/camera/benlomond.jpg)
+![Mountain]({{ site.github.url }}/assets/img/camera/benlomond.jpg)
 
-![Cover]({{ site.url }}/assets/img/camera/cover.jpg)
+![Cover]({{ site.github.url }}/assets/img/camera/cover.jpg)
 
-![Spine]({{ site.url }}/assets/img/camera/spine.jpg)
+![Spine]({{ site.github.url }}/assets/img/camera/spine.jpg)
 
 Last week I got to spend some time in Dunedin, a true student city accomodating over 25 000 students. On Monday there was an international event for all the interns in New Zealand (that came here through Clare), host families and employers of the interns. I decided to stay the week and work from the Dunedin office. I had some time to catch up with the other IT students from UCLL in Dunedin and meet some new people too.
 
-![Dunedin hills]({{ site.url }}/assets/img/camera/hills.jpg) 
+![Dunedin hills]({{ site.github.url }}/assets/img/camera/hills.jpg) 
 
-![Old bridge]({{ site.url }}/assets/img/camera/bridge2.jpg) 
+![Old bridge]({{ site.github.url }}/assets/img/camera/bridge2.jpg) 
 
-![Car bridge]({{ site.url }}/assets/img/camera/bridge.jpg) 
+![Car bridge]({{ site.github.url }}/assets/img/camera/bridge.jpg) 
 
 Just being here in New Zealand surrounded by the nature, makes it all worthwile and I look forward to discovering more of it. I hope to see many more of these mindblowing sunrises. 
 
-![Sunrise]({{ site.url }}/assets/img/camera/sunrise.jpg) 
+![Sunrise]({{ site.github.url }}/assets/img/camera/sunrise.jpg) 
